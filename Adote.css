@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Oswald", sans-serif;
+}
+header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6dcf25;
+    align-items: center;
+}
+header i{
+    font-size: 70px;
+    color: black;
+}
+header a{
+    color: white;
+    font-size: 20px;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    
+}
+header li a{
+    color: white;
+    text-decoration: none;    
+}
+.section-01{
+    padding: 200px;
+    background: linear-gradient(180deg, #d8ff8f 8.33%, #88db40 100%)
+}
+.section-01 div{
+    width: 280px;
+    height: 300px;
+}
+.div-pai01{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.div-01{
+    background-image: url(imagem/animal1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div-02{
+    background-image: url(imagem/animal2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div-03{
+    background-image: url(imagem/animal3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div-04{
+    background-image: url(imagem/cute-3273789_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div-05{
+    background-image: url(imagem/french-bulldog-4059643.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div-06{
+    background-image: url(imagem/dog-1912874.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div-01:hover{
+    box-shadow: 10px 10px 10px black;
+    transform: scale(1.1, 1.1);
+    transition: 0.8s;
+}
+.div-02:hover{
+    box-shadow: 10px 10px 10px black;
+    transition: 0.8s;
+    transform: scale(1.1, 1.1);
+}
+.div-03:hover{
+    box-shadow: 10px 10px 10px black;
+    transition: 0.8s;
+    transform: scale(1.1, 1.1);
+}
+.div-04:hover{
+    box-shadow: 10px 10px 10px black;
+    transition: 0.8s;
+    transform: scale(1.1, 1.1);
+}
+.div-05:hover{
+    box-shadow: 10px 10px 10px black;
+    transition: 0.8s;
+    transform: scale(1.1, 1.1);
+}
+.div-06:hover{
+    box-shadow: 10px 10px 10px black;
+    transition: 0.8s;
+    transform: scale(1.1, 1.1);
+}
+.section-melhore{
+    padding: 200px;
+    background: linear-gradient(360deg, #d8ff8f 8.33%, #88db40 100%);
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-melhore div{
+    width: 330px;
+    height: 300px;
+    padding: 40px;
+    
+}
+.section-melhore button{
+    display: flex;
+}
+
+
+
+/*paleta de cores*/
+/*https://paletadecores.com/paleta/6dcf25/88db40/a3e75a/bdf375/d8ff8f/*/
