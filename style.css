@@ -232,7 +232,7 @@ header li a{
 #Ração button{
     font-size: 30px;
     width: 190px;
-    
+    cursor: pointer;
 }
 .localize{
     padding: 80px;
