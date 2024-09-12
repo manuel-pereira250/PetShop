@@ -1,171 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');/*font tirado do google fonts*/
 *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: "Oswald", sans-serif;
+    padding: 0;/*tamanho preenchimento*/
+    margin: 0;/*zerando a margem*/
+    text-decoration: none;/*temover as decoração do texto*/
+    list-style: none;/*remove o estilo de lista*/
+    font-family: "Oswald", sans-serif;/*colocando uma font family*/
 }
 header{
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #6dcf25;
-    align-items: center;
+    padding: 30px;/*tamanho preenchimento*/
+    display: flex;/*tornar flex e deixar lado a lado*/
+    justify-content: space-between;/*alinhamento na orizontal*/
+    background-color: #6dcf25;/*cor de fundo*/
+    align-items: center;/*alinhamento na vertical*/
 }
 header i{
-    font-size: 70px;
-    color: black;
+    font-size: 70px;/*tamanho da fonte*/
+    color: black;/*cor da letra ou icone*/
 }
 header a{
-    color: white;
-    font-size: 20px;
+    color: white;/*cor da letra ou icone*/
+    font-size: 20px;/*tamanho da fonte*/
 }
 header ul{
-    display: flex;
-    gap: 20px;
+    display: flex;/*tornar flex e deixar lado a lado*/
+    gap: 20px;/*espaçamento entre as ul*/
     
 }
 header li a{
-    color: white;
-    text-decoration: none;    
+    color: white;/*cor da letra ou icone*/
+    text-decoration: none;/*temover as decoração do texto*/
 }
 .section-01{
-    padding: 200px;
-    background: linear-gradient(180deg, #d8ff8f 8.33%, #88db40 100%)
+    padding: 200px;/*preenchimento da sessão*/
+    background: linear-gradient(180deg, #d8ff8f 8.33%, #88db40 100%)/*degrader cor*/
 }
 .section-01 div{
-    width: 280px;
-    height: 300px;
+    width: 280px;/*largura*/
+    height: 300px;/*altura*/
 }
 .div-pai01{
-    display: flex;
-    gap: 30px;
-    margin-bottom: 30px;
+    display: flex;/*tornar flex e deixar lado a lado*/
+    gap: 30px;/*espaçamento*/
+    margin-bottom: 30px;/*espaçamento inferior*/
 }
 .div-01{
-    background-image: url(imagem/animal1.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(imagem/animal1.jpg);/*colocando imagem de fundo*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-size: cover;/*tamanho da imagem*//*cover (total)*/
 }
 .div-02{
-    background-image: url(imagem/animal2.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(imagem/animal2.jpg);/*colocando imagem de fundo*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-size: cover;/*tamanho da imagem*//*cover (total)*/
 }
 .div-03{
-    background-image: url(imagem/animal3.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(imagem/animal3.jpg);/*colocando imagem de fundo*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-size: cover;/*tamanho da imagem*//*cover (total)*/
 }
 .div-04{
-    background-image: url(imagem/cute-3273789_1280.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(imagem/cute-3273789_1280.jpg);/*colocando imagem de fundo*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-size: cover;/*tamanho da imagem*//*cover (total)*/
 }
 .div-05{
-    background-image: url(imagem/french-bulldog-4059643.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(imagem/french-bulldog-4059643.jpg);/*colocando imagem de fundo*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-size: cover;/*tamanho da imagem*//*cover (total)*/
 }
 .div-06{
-    background-image: url(imagem/dog-1912874.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(imagem/dog-1912874.jpg);/*colocando imagem de fundo*/
+    background-position: center;/*posicionando no centro a imagem*/
+    background-size: cover;/*tamanho da imagem*//*cover (total)*/
 }
 .div-01:hover{
-    box-shadow: 10px 10px 10px black;
-    transform: scale(1.1, 1.1);
-    transition: 0.8s;
+    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
+    transform: scale(1.1, 1.1);/*aproximar*/
+    transition: 0.8s;/*tempo para a trazação*/
 }
 .div-02:hover{
-    box-shadow: 10px 10px 10px black;
-    transition: 0.8s;
-    transform: scale(1.1, 1.1);
+    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
+    transition: 0.8s;/*tempo para a trazação*/
+    transform: scale(1.1, 1.1);/*aproximar*/
 }
 .div-03:hover{
-    box-shadow: 10px 10px 10px black;
-    transition: 0.8s;
-    transform: scale(1.1, 1.1);
+    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
+    transition: 0.8s;/*tempo para a trazação*/
+    transform: scale(1.1, 1.1);/*aproximar*/
 }
 .div-04:hover{
-    box-shadow: 10px 10px 10px black;
-    transition: 0.8s;
-    transform: scale(1.1, 1.1);
+    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
+    transition: 0.8s;/*tempo para a trazação*/
+    transform: scale(1.1, 1.1);/*aproximar*/
 }
 .div-05:hover{
-    box-shadow: 10px 10px 10px black;
-    transition: 0.8s;
-    transform: scale(1.1, 1.1);
+    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
+    transition: 0.8s;/*tempo para a trazação*/
+    transform: scale(1.1, 1.1);/*aproximar*/
 }
 .div-06:hover{
-    box-shadow: 10px 10px 10px black;
-    transition: 0.8s;
-    transform: scale(1.1, 1.1);
+    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
+    transition: 0.8s;/*tempo para a trazação*/
+    transform: scale(1.1, 1.1);/*aproximar*/
 }
 .section-melhore{
-    padding: 200px;
-    background: linear-gradient(360deg, #d8ff8f 8.33%, #88db40 100%);
-    display: flex;
-    justify-content: space-evenly;
+    padding: 200px;/*preenchimento da sessão*/
+    background: linear-gradient(360deg, #d8ff8f 8.33%, #88db40 100%);/*degrader cor*/
+    display: flex;/*tornar flex e deixar lado a lado*/
+    justify-content: space-evenly;/*alinhamento na orizontal*/
 }
 .section-melhore textarea{
-    width: 350px;
-    height: 350px;
-    font-size: 35px;
+    width: 350px;/*largura*/
+    height: 350px;/*altura*/
+    font-size: 35px;/*tamanho da fonte*/
 }
 .section-melhore button{
-    display: flex;
-    font-size: 25px;
+    display: flex;/*tornar flex e deixar lado a lado*/
+    font-size: 25px;/*tamanho da fonte*/
 }
 .section-melhore button:hover{
-    cursor: pointer;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.473);
-    transform: scale(1.1, 1.1);
-    transition: 0.8s;
+    cursor: pointer;/*ao passar o mouse mude para (pointer)*/
+    box-shadow: 10px 10px 10px #00000079;/*adicionando sombra*/
+    transform: scale(1.1, 1.1);/*aproximar*/
+    transition: 0.8s;/*tempo para a trazação*/
 }
 .section-melhore .div-p{
-    width: 350px;
-    background-color: #88db40;
+    width: 350px;/*largura*/
+    background-color: #88db40;/*cor de fundo*/
 }
 .section-melhore .button-1{
-    width: 110px;
-    height: auto;
-    margin-left: 100px;
-    margin-top: 20px;
+    width: 110px;/*largura*/
+    height: auto;/*altura*/
+    margin-left: 100px;/*espaçamento lateral*/
+    margin-top: 20px;/*margem superior*/
 }
 footer{
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #6dcf25;
-    align-items: center;
+    padding: 30px;/*preenchimento do rodape*/
+    display: flex;/*tornar flex e deixar lado a lado*/
+    justify-content: space-between;/*alinhamento na orizontal*/
+    background-color: #6dcf25;/*cor de fundo*/
+    align-items: center;/*alinhamento na vertical*/
 }
 footer div i{
-    font-size: 70px;
-    color: black;
+    font-size: 70px;/*tamanho da fonte*/
+    color: black;/*cor da letra ou icone*/
 }
 footer a{
-    color: white;
-    font-size: 22px;
+    color: white;/*cor da letra ou icone*/
+    font-size: 22px;/*tamanho da fonte*/
 }
 footer ul{
-    gap: 20px;
-    margin-left: 500px;
-    display: flex;
+    gap: 20px;/*espaçamento*/
+    margin-left: 500px;/*espaçamento lateral*/
+    display: flex;/*tornar flex e deixar lado a lado*/
 }
 footer li a{
-    color: white;
-    text-decoration: none;    
+    color: white;/*cor da letra ou icone*/
+    text-decoration: none;/*temover as decoração do texto*/
 }
 .div-contatos{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 5px;
+    display: flex;/*tornar flex e deixar lado a lado*/
+    justify-content: space-evenly;/*alinhamento na orizontal*/
+    align-items: center;/*alinhamento na vertical*/
+    gap: 5px;/*espaçamento*/
 }
 .div-contatos i{
-    font-size: 50px;
+    font-size: 50px;/*tamanho da fonte*/
 }
 
 
