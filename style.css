@@ -1,275 +1,535 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');/*font tirado do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/*font tirado do google fonts*/
 
-*{
-    padding: 0;/*tamanho preenchimento*/
-    margin: 0;/*zerando a margem*/
-    text-decoration: none;/*temover as decoração do texto*/
-    list-style: none;/*remove o estilo de lista*/
-    font-family: "Oswald", sans-serif;/*colocando uma font family*/
+* {
+    padding: 0;
+    /*tamanho preenchimento*/
+    margin: 0;
+    /*zerando a margem*/
+    text-decoration: none;
+    /*temover as decoração do texto*/
+    list-style: none;
+    /*remove o estilo de lista*/
+    font-family: "Oswald", sans-serif;
+    /*colocando uma font family*/
 }
-header{
-    padding: 30px;/*tamanho preenchimento*/
-    display: flex;/*tornar flex e deixar lado a lado*/
-    justify-content: space-between;/*alinhamento na orizontal*/
-    background-color: #6dcf25;/*cor de fundo*/
-    align-items: center;/*alinhamento na vertical*/
+
+header {
+    /*chamando a (Cabeça do site) para estelizar*/
+    padding: 30px;
+    /*tamanho preenchimento*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    justify-content: space-between;
+    /*alinhamento na orizontal*/
+    background-color: #6dcf25;
+    /*cor de fundo*/
+    align-items: center;
+    /*alinhamento na vertical*/
 }
-header i{
-    font-size: 70px;/*tamanho da fonte*/
-    color: black;/*cor da letra ou icone*/
+
+header i {
+    /*chamando a (logo do site) para estelizar*/
+    font-size: 70px;
+    /*tamanho da fonte*/
+    color: black;
+    /*cor da letra ou icone*/
 }
-header a{
-    color: white;/*cor da ancora*/
-    font-size: 20px;/*tamanho da fonte*/
-    text-decoration: none;/*temover as decoração do texto*/
+
+header a {
+    /*chamando a (ancora do site) para estelizar*/
+    color: white;
+    /*cor da ancora*/
+    font-size: 20px;
+    /*tamanho da fonte*/
+    text-decoration: none;
+    /*temover as decoração do texto*/
 }
-header ul{
-    display: flex;/*tornar flex e deixar lado a lado*/
-    gap: 20px;/*espaçamento entre as ul*/
-    
+
+header ul {
+    /*chamando a (ul do site) para estelizar*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    gap: 20px;
+    /*espaçamento entre as ul*/
+
 }
-.nossa-equipe{
-    padding: 200px;/*preenchimento da sessão*/
-    background-image: url(imagem/american-bulldogs-1504599.jpg) ;/*colocando imagem de fundo*/
-    display: flex;/*tornar flex e deixar lado a lado*/
-    align-items: center;/*alinhamento na vertical*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
+
+.nossa-equipe {
+    /*chamando a (1ª section do site) para estelizar*/
+    padding: 200px;
+    /*preenchimento da sessão*/
+    background-image: url(imagem/american-bulldogs-1504599.jpg);
+    /*colocando imagem de fundo*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    align-items: center;
+    /*alinhamento na vertical*/
+    background-size: cover;
+    /*tamanho da imagem*/
+    /*cover (total)*/
     background-repeat: no-repeat;
-    background-position: center;/*posicionando no centro a imagem*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
 }
-.nossa-equipe div{
-    color: white;/*cor de todas os paragrafos e sub titulos dentro da caixa*/
-    background-color: #18333d8c;/*cor de fundo*/
-    width: 800px;/*largura*/
-    height: 350px;/*altura*/
-    margin-left: 50px;/*espaçamento lateral*/
-    font-size: 20px;/*tamanho da fonte*/
+
+.nossa-equipe div {
+    /*Chamando a (div) que esta dentro da (1ª section) para estelizar*/
+    color: white;
+    /*cor de todas os paragrafos e sub titulos dentro da caixa*/
+    background-color: #18333d8c;
+    /*cor de fundo*/
+    width: 800px;
+    /*largura*/
+    height: 350px;
+    /*altura*/
+    margin-left: 50px;
+    /*espaçamento lateral*/
+    font-size: 20px;
+    /*tamanho da fonte*/
 }
+
 .section-2 {
-    padding: 200px;/*preenchimento da sessão*/
-    background-image: url(imagem/veterinario3.webp);/*colocando imagem de fundo*/
+    padding: 200px;
+    /*preenchimento da sessão*/
+    background-image: url(imagem/veterinario3.webp);
+    /*colocando imagem de fundo*/
     background-repeat: no-repeat;
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
+    /*fazendo ele não se repetir*/
+    background-size: cover;
+    /*tamanho da imagem*/
+    /*cover (total)*/
 }
 
-.section-2 h2{
-    text-align: center;/*alinhando ao centro (texto)*/
-    font-size: 29px;/*tamanho da fonte*/
-    margin-bottom: 5px;/*espaçamento inferior*/
-}
-.section-2 div{
-    width: 280px;/*largura*/
-    height: 300px;/*altura*/
-}
-.div-pai1{
-    margin-left: 50px;/*espaçamento lateral*/
-    display: flex;/*tornar flex e deixar lado a lado*/
-    justify-content: space-evenly;/*alinhamento na orizontal*/
-    gap: 30px;/*espaçamento*/
-    margin-bottom: 25px;/*espaçamento inferior*/
+.section-2 h2 {
+    text-align: center;
+    /*alinhando ao centro (texto)*/
+    font-size: 29px;
+    /*tamanho da fonte*/
+    margin-bottom: 5px;
+    /*espaçamento inferior*/
+    background-color: #6ccf25a2;
+    /*cor de fundo*/
 }
 
-.section-2 .div-pai1 .div-1{
-    background-image: url(imagem/french-bulldog-4059643.jpg);/*colocando imagem de fundo*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
-    background-position: center;/*posicionando no centro a imagem*/
-    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
-}
-.section-2 .div-pai1 .div-2{
-    background-image: url(imagem/cute-3273789_1280.jpg);/*colocando imagem de fundo*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
-    background-position: center;/*posicionando no centro a imagem*/
-    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
-}
-.section-2 .div-pai1 .div-3{
-    background-image: url(imagem/animal1.jpg);/*colocando imagem de fundo*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
-    background-position: center;/*posicionando no centro a imagem*/
-    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
-
-}
-.section-2 .div-pai1 .div-4{
-    background-image: url(imagem/animal2.jpg);/*colocando imagem de fundo*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
-    background-position: center;/*posicionando no centro a imagem*/
-    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
-}
-.section-2 .div-pai1 .div-5{
-    background-image: url(imagem/animal3.jpg);/*colocando imagem de fundo*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
-    background-position: center;/*posicionando no centro a imagem*/
-    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
-}
-.section-2 .div-pai1 .div-6{
-    background-image: url(imagem/dog-1912874.jpg);/*colocando imagem de fundo*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
-    background-position: center;/*posicionando no centro a imagem*/
-    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
-}
-.section-2 .div-pai1 .div-1:hover{
-    transform: scale(1.1, 1.1);/*aproximar*/
-    transition: 0.8s;/*tempo para a trazação*/
-}
-.section-2 .div-pai1 .div-2:hover{
-    transform: scale(1.1, 1.1);/*aproximar*/
-    transition: 0.8s;/*tempo para a trazação*/
-}
-.section-2 .div-pai1 .div-3:hover{
-    transform: scale(1.1, 1.1);/*aproximar*/
-    transition: 0.8s;/*tempo para a trazação*/
-}
-.section-2 .div-pai1 .div-4:hover{
-    transform: scale(1.1, 1.1);/*aproximar*/
-    transition: 0.8s;/*tempo para a trazação*/
-}
-.section-2 .div-pai1 .div-5:hover{
-    transform: scale(1.1, 1.1);/*aproximar*/
-    transition: 0.8s;/*tempo para a trazação*/
-}
-.section-2 .div-pai1 .div-6:hover{
-    transform: scale(1.1, 1.1);/*aproximar*/
-    transition: 0.8s;/*tempo para a trazação*/
+.section-2 div {
+    width: 280px;
+    /*largura*/
+    height: 300px;
+    /*altura*/
 }
 
-#Veterinario{
-    padding: 200px;/*preenchimento da sessão*/
-    background-image: url(imagem/veterinario.webp);/*colocando imagem de fundo*/
-    background-repeat: no-repeat;/*para não repetir a imagem*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
-    background-position: center;/*posicionando no centro a imagem*/
-    
-}
-#Veterinario h2{
-    font-size: 27px;/*tamanho da fonte*/
-    margin-bottom: 5px;/*espaçamento inferior*/
-    background: linear-gradient(270deg, #d8ff8fbd 8.33%, #88db40ab 100%);/*degrader cor*/
-}
-#Veterinario div{
-    width: 450px;/*largura*/
-    height: 400px;/*altura*/
-}
-.div-img{
-    display: flex;/*tornar flex e deixar lado a lado*/
-    gap: 20px;/*espaçamento*/
-    margin-top: 20px;/*margem superior*/
+.div-pai1 {
+    margin-left: 50px;
+    /*espaçamento lateral*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    justify-content: space-evenly;
+    /*alinhamento na orizontal*/
+    gap: 30px;
+    /*espaçamento*/
+    margin-bottom: 25px;
+    /*espaçamento inferior*/
 }
 
-#Veterinario .div-7{
-    background-image: url(imagem/cirurgia\ no\ gato.jpg);/*colocando imagem de fundo*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
-    background-position: center;/*posicionando no centro a imagem*/
-    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
+.section-2 .div-pai1 .div-1 {
+    background-image: url(imagem/french-bulldog-4059643.jpg);
+    /*colocando imagem de fundo*/
+    background-size: cover;
+    /*tamanho da imagem*/
+    /*cover (total)*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
+    box-shadow: 10px 10px 10px black;
+    /*adicionando sombra*/
 }
-#Veterinario .div-8{
-    background-image: url(imagem/veterinario2.jpg);/*colocando imagem de fundo*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
-    background-position: center;/*posicionando no centro a imagem*/
-    box-shadow: 10px 10px 10px black;/*adicionando sombra*/
+
+.section-2 .div-pai1 .div-2 {
+    background-image: url(imagem/cute-3273789_1280.jpg);
+    /*colocando imagem de fundo*/
+    background-size: cover;
+    /*tamanho da imagem*/
+    /*cover (total)*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
+    box-shadow: 10px 10px 10px black;
+    /*adicionando sombra*/
 }
-#Veterinario .div-7:hover{
-    transform: scale(1.1, 1.1);/*aproximar*/
-    transition: 0.8s;/*tempo para a trazação*/
+
+.section-2 .div-pai1 .div-3 {
+    background-image: url(imagem/animal1.jpg);
+    /*colocando imagem de fundo*/
+    background-size: cover;
+    /*tamanho da imagem*/
+    /*cover (total)*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
+    box-shadow: 10px 10px 10px black;
+    /*adicionando sombra*/
+
 }
-#Veterinario .div-8:hover{
-    transform: scale(1.1, 1.1);/*aproximar*/
-    transition: 0.8s;/*tempo para a trazação*/
+
+.section-2 .div-pai1 .div-4 {
+    background-image: url(imagem/animal2.jpg);
+    /*colocando imagem de fundo*/
+    background-size: cover;
+    /*tamanho da imagem*/
+    /*cover (total)*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
+    box-shadow: 10px 10px 10px black;
+    /*adicionando sombra*/
 }
-.saude{
-    padding: 180px;/*preenchimento da sessão*/
-    background: linear-gradient(180deg, #d8ff8f 8.33%, #88db40 100%);/*degrader cor*/
+
+.section-2 .div-pai1 .div-5 {
+    background-image: url(imagem/animal3.jpg);
+    /*colocando imagem de fundo*/
+    background-size: cover;
+    /*tamanho da imagem*/
+    /*cover (total)*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
+    box-shadow: 10px 10px 10px black;
+    /*adicionando sombra*/
 }
-.saude div{
-    text-align: center;/*alinhando ao centro (texto)*/
+
+.section-2 .div-pai1 .div-6 {
+    background-image: url(imagem/dog-1912874.jpg);
+    /*colocando imagem de fundo*/
+    background-size: cover;
+    /*tamanho da imagem*/
+    /*cover (total)*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
+    box-shadow: 10px 10px 10px black;
+    /*adicionando sombra*/
 }
-.saude h2{
-    font-size: 25px;/*tamanho da fonte*/
+
+.section-2 .div-pai1 .div-1:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    transform: scale(1.1, 1.1);
+    /*(aproximar) ou (aumentar) deixa mais perto */
+    transition: 0.8s;
+    /*tempo para a trazação*/
 }
+
+.section-2 .div-pai1 .div-2:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    transform: scale(1.1, 1.1);
+    /*(aproximar) ou (aumentar) deixa mais perto */
+    transition: 0.8s;
+    /*tempo para a trazação*/
+}
+
+.section-2 .div-pai1 .div-3:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    transform: scale(1.1, 1.1);
+    /*(aproximar) ou (aumentar) deixa mais perto */
+    transition: 0.8s;
+    /*tempo para a trazação*/
+}
+
+.section-2 .div-pai1 .div-4:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    transform: scale(1.1, 1.1);
+    /*(aproximar) ou (aumentar) deixa mais perto */
+    transition: 0.8s;
+    /*tempo para a trazação*/
+}
+
+.section-2 .div-pai1 .div-5:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    transform: scale(1.1, 1.1);
+    /*(aproximar) ou (aumentar) deixa mais perto */
+    transition: 0.8s;
+    /*tempo para a trazação*/
+}
+
+.section-2 .div-pai1 .div-6:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    transform: scale(1.1, 1.1);
+    /*(aproximar) ou (aumentar) deixa mais perto */
+    transition: 0.8s;
+    /*tempo para a trazação*/
+}
+
+#Veterinario {
+    /*chamando a (3ª section) para estelizar*/
+    padding: 200px;
+    /*preenchimento da sessão*/
+    background-image: url(imagem/veterinario.webp);
+    /*colocando imagem de fundo*/
+    background-repeat: no-repeat;
+    /*para não repetir a imagem*/
+    background-size: cover;
+    /*tamanho da imagem*/
+    /*cover (total)*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
+
+}
+
+#Veterinario h2 {
+    /*chamando o (subtitulo) que esta dentro da (3ª section) para estelizar*/
+    font-size: 27px;
+    /*tamanho da fonte*/
+    margin-bottom: 5px;
+    /*espaçamento inferior*/
+    background: linear-gradient(270deg, #d8ff8fbd 8.33%, #88db40ab 100%);
+    /*degrader cor*/
+}
+
+#Veterinario div {
+    /*chamando a (caixa) que esta dentro da (3ª section) para estelizar*/
+    width: 450px;
+    /*largura*/
+    height: 400px;
+    /*altura*/
+}
+
+.div-img {
+   /*chamando a div(imagem) que esta dentro da (3ª section) para estelizar*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    gap: 20px;
+    /*espaçamento*/
+    margin-top: 20px;
+    /*margem superior*/
+}
+
+#Veterinario .div-7 {
+    /*chamando a (div filho) que esta dentro da (3ª section) para estelizar*/
+    background-image: url(imagem/cirurgia\ no\ gato.jpg);
+    /*colocando imagem de fundo*/
+    background-size: cover;
+    /*tamanho da imagem*//*cover = (total)*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
+    box-shadow: 10px 10px 10px black;
+    /*adicionando sombra*/
+}
+
+#Veterinario .div-8 {
+    /*chamando a (div filho) que esta dentro da (3ª section) para estelizar*/
+    background-image: url(imagem/veterinario2.jpg);
+    /*colocando imagem de fundo*/
+    background-size: cover;
+    /*tamanho da imagem*//*cover = (total)*/
+    background-position: center;
+    /*posicionando no centro a imagem*/
+    box-shadow: 10px 10px 10px black;
+    /*adicionando sombra*/
+}
+
+#Veterinario .div-7:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    transform: scale(1.1, 1.1);
+    /*(aproximar) ou (aumentar) deixa mais perto */
+    transition: 0.8s;
+    /*tempo para a trazação*/
+}
+
+#Veterinario .div-8:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    transform: scale(1.1, 1.1);
+    /*(aproximar) ou (aumentar) deixa mais perto */
+    transition: 0.8s;
+    /*tempo para a trazação*/
+}
+
+.saude {
+    /*Chamando a (4ª section) para estelizar*/
+    padding: 180px;
+    /*preenchimento da sessão*/
+    background: linear-gradient(180deg, #d8ff8f 8.33%, #88db40 100%);
+    /*degrader cor*/
+}
+
+.saude div {
+    /*chamando a (caixa) que esta dentro da (4ª section) para estelizar*/
+    text-align: center;
+    /*alinhando ao centro (texto)*/
+}
+
+.saude h2 {
+    /*chamando o (sub titulo) que esta dentro da (4ª section) para estelizar*/
+    font-size: 25px;
+    /*tamanho da fonte*/
+}
+
 .saude p {
-    font-size: 20px;/*tamanho da fonte*/
+    /*chamando o (paragrafo) que esta dentro da (4ª section) para estelizar*/
+    font-size: 20px;
+    /*tamanho da fonte*/
 }
-.saude button{
-    width: 250px;/*largura*/
-    height: 40px;/*altura*/
-    font-size: 20px;/*tamanho da fonte*/
-    margin-bottom: 15px;/*espaçamento inferior*/
-    margin-top: 10px;/*margem superior*/
+
+.saude button {
+    /*chamando o (button) que esta dentro da (4ª section) para modificar*/
+    width: 250px;
+    /*largura*/
+    height: 40px;
+    /*altura*/
+    font-size: 20px;
+    /*tamanho da fonte*/
+    margin-bottom: 15px;
+    /*espaçamento inferior*/
+    margin-top: 10px;
+    /*margem superior*/
 }
-.saude button:hover{
-    cursor: pointer;/*ao passar o mouse mude para (pointer)*/
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.473);/*adicionando sombra*/
-    transform: scale(1.1, 1.1);/*aproximar*/
-    transition: 0.8s;/*tempo para a trazação*/
+
+.saude button:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    cursor: pointer;
+    /*ao passar o mouse mude para (pointer)*/
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.473);
+    /*adicionando sombra*/
+    transform: scale(1.1, 1.1);
+    /*(aproximar) ou (aumentar) deixa mais perto */
+    transition: 0.8s;
+    /*tempo para a trazação*/
 }
-.saude video{
-    width: 800px;/*largura*/
+
+.saude video {
+    /*chamando o (video) que esta dentro da (4ª section) para modificar*/
+    width: 800px;
+    /*largura*/
 }
-#Ração{
-    padding: 180px;/*preenchimento da sessão*/
-    background: linear-gradient(3600deg, #d8ff8f 8.33%, #88db40 100%);/*degrader cor*/
+
+#Ração {
+    /*chamando a (5ª section)*/
+    padding: 180px;
+    /*preenchimento da sessão*/
+    background: linear-gradient(3600deg, #d8ff8f 8.33%, #88db40 100%);
+    /*degrader cor*/
 }
-#Ração h2{
-    text-align: center;/*alinhando ao centro (texto)*/
-    font-size: 50px;/*tamanho da fonte*/
+
+#Ração h2 {
+    /*chamando o (sub titulo) que esta dentro da (5ª section) para estelizar*/
+    text-align: center;
+    /*alinhando ao centro (texto)*/
+    font-size: 50px;
+    /*tamanho da fonte*/
 }
-#Ração .div-pai3{
-    width: 550px;/*largura*/
-    display: flex;/*tornar flex e deixar lado a lado*/
-    margin-left: 200px;/*espaçamento lateral*/
-    font-size: 25px;/*tamanho da fonte*/
-    gap: 25px;/*espaçamento*/
+
+#Ração .div-pai3 {
+    /*chamando o (div pai) que esta dentro da (5ª section) para estelizar*/
+    width: 550px;
+    /*largura*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    margin-left: 200px;
+    /*espaçamento lateral*/
+    font-size: 25px;
+    /*tamanho da fonte*/
+    gap: 25px;
+    /*espaçamento*/
 }
-#Ração .div-uma{
-    background-color: #88db40;/*cor de fundo*/
+
+#Ração .div-uma {
+    /*chamando o (div filho) que esta dentro da (5ª section) para estelizar*/
+    background-color: #88db40;
+    /*cor de fundo*/
 }
-#Ração button{
-    font-size: 30px;/*tamanho da fonte*/
-    width: 190px;/*largura*/
-    cursor: pointer;/*ao passar o mouse mude para (pointer)*/
+
+#Ração button {
+    /*Chamando o button para estetizar*/
+    font-size: 30px;
+    /*tamanho da fonte*/
+    width: 190px;
+    /*largura*/
+    cursor: pointer;
+    /*ao passar o mouse mude para (pointer)*/
 }
-#Ração button:hover{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.473);/*adicionando sombra*/
-    transform: scale(1.1, 1.1);/*aproximar*/
-    transition: 0.8s;/*tempo para a trazação*/
+
+#Ração button:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.473);
+    /*adicionando sombra*/
+    transform: scale(1.1, 1.1);
+    /*(aproximar) ou (aumentar) deixa mais perto */
+    transition: 0.8s;
+    /*tempo para a trazação*/
 }
-.localize{
-    padding: 80px;/*preenchimento da sessão*/
-    background: linear-gradient(180deg, #d8ff8f 8.33%, #88db40 100%);/*degrader cor*/
+
+.localize {
+    /*chamando a (6ª section)*/
+    padding: 80px;
+    /*preenchimento da sessão*/
+    background: linear-gradient(180deg, #d8ff8f 8.33%, #88db40 100%);
+    /*degrader cor*/
 }
-.localize .div-mapa{
-    margin-left: 250px;/*espaçamento lateral*/
+
+.localize .div-mapa {
+    /*chamando o (div pai) que esta dentro da (6ª section) para estelizar*/
+    margin-left: 250px;
+    /*espaçamento lateral*/
 }
-.localize h2{
-    font-size: 35px;/*tamanho da fonte*/
+
+.localize h2 {
+    /*chamando o (sub titulo) que esta dentro da (6ª section) para estelizar*/
+    font-size: 35px;
+    /*tamanho da fonte*/
 }
-footer{
-    padding: 30px;/*preenchimento do rodape*/
-    display: flex;/*tornar flex e deixar lado a lado*/
-    justify-content: space-between;/*alinhamento na orizontal*/
-    background-color: #6dcf25;/*cor de fundo*/
-    align-items: center;/*alinhamento na vertical*/
+
+footer {
+    /*chamando o (footer)*/
+    padding: 30px;
+    /*preenchimento do rodape*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    justify-content: space-between;
+    /*alinhamento na orizontal*/
+    background-color: #6dcf25;
+    /*cor de fundo*/
+    align-items: center;
+    /*alinhamento na vertical*/
 }
-footer div i{
-    font-size: 70px;/*tamanho da fonte*/
-    color: black;/*cor do icone*/
+
+footer div i {
+    /*chamando o (logo)*/
+    font-size: 70px;
+    /*tamanho da fonte*/
+    color: black;
+    /*cor do icone*/
 }
-footer ul{
-    gap: 20px;/*espaçamento*/
-    margin-left: 500px;/*espaçamento lateral*/
-    display: flex;/*tornar flex e deixar lado a lado*/
+
+footer ul {
+    /*chamando a (ul)*/
+    gap: 20px;
+    /*espaçamento*/
+    margin-left: 500px;
+    /*espaçamento lateral*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
 }
-footer li a{
-    color: white;/*colocando cor na ancora*/
-    text-decoration: none;/*temover as decoração do texto*/
-    font-size: 22px;/*tamanho da fonte*/    
+
+footer li a {
+    /*chamando a (ancora)*/
+    color: white;
+    /*colocando cor na ancora*/
+    text-decoration: none;
+    /*temover as decoração do texto*/
+    font-size: 22px;
+    /*tamanho da fonte*/
 }
-.div-contatos{
-    display: flex;/*tornar flex e deixar lado a lado*/
-    justify-content: space-evenly;/*alinhamento na orizontal*/
-    align-items: center;/*alinhamento na vertical*/
-    gap: 5px;/*espaçamento*/
+
+.div-contatos {
+    /*chamando a (div contatos) que esta dentro do (footer) para estelizar*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    justify-content: space-evenly;
+    /*alinhamento na orizontal*/
+    align-items: center;
+    /*alinhamento na vertical*/
+    gap: 5px;
+    /*espaçamento*/
 }
-.div-contatos i{
-    font-size: 50px;/*tamanho da fonte*/
+
+.div-contatos i {
+    /*Chamando a (logo) que esta no div(contatos) para estelizar*/
+    font-size: 50px;
+    /*tamanho da fonte*/
 }
+
 /*paleta de cores*/
 /*https://paletadecores.com/paleta/6dcf25/88db40/a3e75a/bdf375/d8ff8f/*/

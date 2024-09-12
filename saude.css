@@ -1,88 +1,173 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');/*font tirado do google fonts*/
-*{
-    padding: 0;/*tamanho preenchimento*/
-    margin: 0;/*zerando a margem*/
-    text-decoration: none;/*temover as decoração do texto*/
-    list-style: none;/*remove o estilo de lista*/
-    font-family: "Oswald", sans-serif;/*colocando uma font family*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/*font tirado do google fonts*/
+* {
+    padding: 0;
+    /*tamanho preenchimento*/
+    margin: 0;
+    /*zerando a margem*/
+    text-decoration: none;
+    /*temover as decoração do texto*/
+    list-style: none;
+    /*remove o estilo de lista*/
+    font-family: "Oswald", sans-serif;
+    /*colocando uma font family*/
 }
-header{
-    padding: 30px;/*tamanho preenchimento*/
-    display: flex;/*tornar flex e deixar lado a lado*/
-    justify-content: space-between;/*alinhamento na orizontal*/
-    background-color: #6dcf25;/*cor de fundo*/
-    align-items: center;/*alinhamento na vertical*/
+
+header {
+    /*chamando a (Cabeça do site) para estelizar*/
+    padding: 30px;
+    /*tamanho preenchimento*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    justify-content: space-between;
+    /*alinhamento na orizontal*/
+    background-color: #6dcf25;
+    /*cor de fundo*/
+    align-items: center;
+    /*alinhamento na vertical*/
 }
-header i{
-    font-size: 70px;/*tamanho da fonte*/
-    color: black;/*cor da letra ou icone*/
+
+header i {
+    /*chamando a (logo do site) para estelizar*/
+    font-size: 70px;
+    /*tamanho da fonte*/
+    color: black;
+    /*cor da letra ou icone*/
 }
-header a{
-    color: white;/*cor da letra ou icone*/
-    font-size: 20px;/*tamanho da fonte*/
-    text-decoration: none;/*temover as decoração do texto*/
+
+header a {
+    /*chamando a (ancora do site) para estelizar*/
+    color: white;
+    /*cor da letra ou icone*/
+    font-size: 20px;
+    /*tamanho da fonte*/
+    text-decoration: none;
+    /*temover as decoração do texto*/
 }
-header ul{
-    display: flex;/*tornar flex e deixar lado a lado*/
-    gap: 20px;/*espaçamento entre as ul*/
-    
-}
-section{
-    padding: 280px;/*preenchimento da sessão*/
-    background-image: url(imagem/fundo1.jpg);/*colocando imagem de fundo*/
-    background-size: cover;/*tamanho da imagem*//*cover (total)*/
-    background-repeat: no-repeat;/*para não repetir a imagem*/
-}
-section .div-pai{
-    display: flex;/*tornar flex e deixar lado a lado*/
-    gap: 10px;/*espaçamento*/
-}
-section .div-filho1{
-    background-color: #6ccf25d2;/*cor de fundo*/
-    width: 350px;/*largura*/
-    height: 300px;/*altura*/
-    background-position: center;/*posicionando no centro*/
-}
-section button{
-    width: 280px;/*largura*/
-    height: 100px;/*altura*/
-    font-size: 30px;/*tamanho da fonte*/
-}
-section button:hover{
-    cursor: pointer;/*ao passar o mouse mude para (pointer)*/
-}
-footer{
-    padding: 30px;/*preenchimento do rodape*/
-    display: flex;/*tornar flex e deixar lado a lado*/
-    justify-content: space-between;/*alinhamento na orizontal*/
-    background-color: #6dcf25;/*cor de fundo*/
-    align-items: center;/*alinhamento na vertical*/
-}
-footer div i{
-    font-size: 70px;/*tamanho da fonte*/
-    color: black;/*cor da letra ou icone*/
-}
-footer a{
-    color: white;/*cor da letra ou icone*/
-    font-size: 22px;/*tamanho da fonte*/
-}
-footer ul{
+
+header ul {
+    /*chamando a (ul do site) para estelizar*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
     gap: 20px;
-    margin-left: 500px;/*espaçamento lateral*/
-    display: flex;/*tornar flex e deixar lado a lado*/
+    /*espaçamento entre as ul*/
+
 }
-footer li a{
-    color: white;/*cor da letra ou icone*/
-    text-decoration: none;/*temover as decoração do texto*/
+
+section {
+    /*chamando a (1ª section do site) para estelizar*/
+    padding: 280px;
+    /*preenchimento da sessão*/
+    background-image: url(imagem/fundo1.jpg);
+    /*colocando imagem de fundo*/
+    background-size: cover;
+    /*tamanho da imagem*/
+    /*cover (total)*/
+    background-repeat: no-repeat;
+    /*para não repetir a imagem*/
 }
-.div-contatos{
-    display: flex;/*tornar flex e deixar lado a lado*/
-    justify-content: space-evenly;/*alinhamento na orizontal*/
-    align-items: center;/*alinhamento na vertical*/
-    gap: 5px;/*espaçamento*/
+
+section .div-pai {
+    /*Chamando a (div pai) que esta dentro da (1ª section) para estelizar*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    gap: 10px;
+    /*espaçamento*/
 }
-.div-contatos i{
-    font-size: 50px;/*tamanho da fonte*/
+
+section .div-filho1 {
+    /*Chamando a (div filho) que esta dentro da (1ª section) para estelizar*/
+    background-color: #6ccf25d2;
+    /*cor de fundo*/
+    width: 350px;
+    /*largura*/
+    height: 300px;
+    /*altura*/
+    background-position: center;
+    /*posicionando no centro*/
+}
+
+section button {
+    /*Chamando o button para estetizar*/
+    width: 280px;
+    /*largura*/
+    height: 100px;
+    /*altura*/
+    font-size: 30px;
+    /*tamanho da fonte*/
+}
+
+section button:hover {
+    /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
+    cursor: pointer;
+    /*ao passar o mouse mude para (pointer)*/
+}
+
+footer {
+    /*Chamando o (footer) para estilizar*/
+    padding: 30px;
+    /*preenchimento do rodape*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    justify-content: space-between;
+    /*alinhamento na orizontal*/
+    background-color: #6dcf25;
+    /*cor de fundo*/
+    align-items: center;
+    /*alinhamento na vertical*/
+}
+
+footer div i {
+    /*Chamando a (logo) para estelizar*/
+    font-size: 70px;
+    /*tamanho da fonte*/
+    color: black;
+    /*cor da letra ou icone*/
+}
+
+footer a {
+    /*chamando a (ancora) que esta dentro do (footer) para estelizar*/
+    color: white;
+    /*cor da letra ou icone*/
+    font-size: 22px;
+    /*tamanho da fonte*/
+}
+
+footer ul {
+    /*chamando a (ul) que esta dentro do (footer) para estelizar*/
+    gap: 20px;
+    /*dando um espaço entra as ancoras*/
+    margin-left: 500px;
+    /*espaçamento lateral*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+}
+
+footer li a {
+    /*chamando a (ancora) que esta dentro do (footer dentro da li) para estelizar*/
+    color: white;
+    /*cor da letra ou icone*/
+    text-decoration: none;
+    /*temover as decoração do texto*/
+}
+
+.div-contatos {
+    /*chamando a div(contatos) para estelizar*/
+    display: flex;
+    /*tornar flex e deixar lado a lado*/
+    justify-content: space-evenly;
+    /*alinhamento na orizontal*/
+    align-items: center;
+    /*alinhamento na vertical*/
+    gap: 5px;
+    /*espaçamento*/
+}
+
+.div-contatos i {
+    /*chamando a (logo) que esta dentro da div(contatos)*/
+    font-size: 50px;
+    /*tamanho da fonte*/
 }
 
 
