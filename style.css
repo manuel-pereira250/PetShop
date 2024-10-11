@@ -16,7 +16,7 @@
 
 header {
     /*chamando a (Cabeça do site) para estelizar*/
-    padding: 30px;
+    padding: 1.5em;
     /*tamanho preenchimento*/
     display: flex;
     /*tornar flex e deixar lado a lado*/
@@ -563,6 +563,7 @@ footer ul {
     /*espaçamento*/
     margin-left: 500px;
     /*espaçamento lateral*/
+    
     display: flex;
     /*tornar flex e deixar lado a lado*/
 }
