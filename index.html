@@ -9,6 +9,17 @@
         <script src="https://kit.fontawesome.com/8602b16f77.js"
             crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
+
+
+
+
+        <script src="script.js" defer></script><!--defer para colocar ele aqui-->
+        <!--chamando o JS-->
+
+
+
+
+
     </head>
     <body><!--corpo-->
 
@@ -33,7 +44,59 @@
                             <a href="#Ração">Ração</a><!--ancora levando para a section de Ração-->
                         </li>
                     </ul>
+
+
+
+                    <!--Criamos nossa caixa (DIV) para guardar os elementos do hamburguer quando estiver aberto-->
+            <div class="mobile-menu" id="mobileMenu">
+
+                <!--Botão para ser utilizado para fechamento da  lista-->
+                <button id="closeButton" class="close">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <!--Essa lista é do Menu Hamburguer quando estiver aberto.-->
+                <ul class="nav-links-mobile">
+
+                    <li>
+                        <a href="">TESTE</a>
+                    </li>
+
+                    <li>
+                        <a href="">TESTE</a>
+                    </li>
+
+                    <li>
+                        <a href="">TESTE</a>
+                    </li>
+                </ul>
+    
+                <div id="btn-mobile" class="cad-mobile">
+                    <button>
+                        <a href="form.html" target="_blank">
+
+                        <!-- <img src="img/user.png" alt="">-->
+                         <p>Cadastre-se</p>
+                        </a>
+                    </button>
+                </div>
+                <!--Fim da caixa do Menu Hamburguer (Quando estiver aberto)-->
+            </div>
+            
+
+
+            <!--Botão de Hamburguer, ele está fora da Div justamente por ser um elemento singular-->
+            <button class="hamburger" id="hamburguerButton">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            
+
+
+
                 </nav>
+
+
             </div>
         </header>
         <!--fim do (header)-->
@@ -217,4 +280,6 @@
   </script>
         <!--fim da (libras)-->
     </body>
+
+    
 </html>
