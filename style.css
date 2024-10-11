@@ -35,6 +35,17 @@ header i {
     color: black;
     /*cor da letra ou icone*/
 }
+.header-div-1{
+    display: flex;
+}
+header .header-div-1 h1{
+    margin-left: 7em;
+    align-items: center;
+    font-size: 3em;
+    color: black;
+}
+
+
 
 header a {
     /*chamando a (ancora do site) para estelizar*/
@@ -574,7 +585,7 @@ footer li a {
     /*alinhamento na orizontal*/
     align-items: center;
     /*alinhamento na vertical*/
-    gap: 5px;
+    gap: 1em;
     /*espaçamento*/
 }
 
