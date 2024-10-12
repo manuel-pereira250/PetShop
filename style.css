@@ -16,83 +16,171 @@
 
 header {
     /*chamando a (Cabeça do site) para estelizar*/
-    padding: 1.5em;
+
+    padding: 2%;
     /*tamanho preenchimento*/
+    
     display: flex;
     /*tornar flex e deixar lado a lado*/
+
     justify-content: space-between;
     /*alinhamento na orizontal*/
+
     background-color: #6dcf25;
     /*cor de fundo*/
+
     align-items: center;
     /*alinhamento na vertical*/
+
+    position: sticky;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 999;/*priorizando*/
+
+    overflow: hidden;/*faz com que os elementos não se quebrem*/
 }
 
 header i {
     /*chamando a (logo do site) para estelizar*/
-    font-size: 70px;
+
+    font-size: 5em;
     /*tamanho da fonte*/
+
     color: black;
     /*cor da letra ou icone*/
+
 }
 .header-div-1{
+
     display: flex;
+
 }
 header .header-div-1 h1{
-    margin-left: 7em;
-    align-items: center;
-    font-size: 3em;
+
+    margin-left: 3em;
+
+    
+
+    font-size: 4em;
+
     color: black;
+
 }
 
 
 
-header a {
+header li a {
     /*chamando a (ancora do site) para estelizar*/
+    align-items: center;
+    
+
     color: white;
     /*cor da ancora*/
-    font-size: 20px;
+
+    font-size: 1.4em;
     /*tamanho da fonte*/
+
     text-decoration: none;
     /*temover as decoração do texto*/
+
 }
 
 header ul {
     /*chamando a (ul do site) para estelizar*/
+
     display: flex;
     /*tornar flex e deixar lado a lado*/
-    gap: 20px;
+
+    gap: 1.5rem;
     /*espaçamento entre as ul*/
 
+
 }
+
+
+
+
+
+
+
+
 .mobile-menu { /*Estilização da caixa Mobile quando aberta*/
+
     display: none; /*Display: Nenhum*/
+
     position: fixed; /*Posição fixa na parte direita da página*/
+
     top: 0; /*Superior em 0 fazendo a caixa encostar ao topo*/
+
     right: 0; /*Direita em 0 fazendo a caixa encostar a direita*/
+
     width: 60%; /*Largura em porcentagem da caixa*/
+
     height: 100%; /*Altura de 100% da tela*/
+
     background-color: rgb(0, 0, 0); /*Cor de fundo*/
+
     flex-direction: column; /*direção dos itens dentro da caixa */
+
     align-items: center; /*Alinhamento na vertical do itens*/
+
     font-size: 1.8rem; /*tamanho da letra dentro da caixa*/
+
 }
 
 .nav-links-mobile { /*Lista não ordenada da versão mobile*/
+
     display: flex; /*Tornando os itens (LISTAS) flexíveis*/
+
     flex-direction: column; /*Estamos direcionando o posicionamento dessas listas*/
+
     text-align: end; /*Alinhando o texto ao centro*/
+
     gap: 1.2rem; /*Espaço entre as listas */
+
     /* width: 0%; Zeramos a largura podendo retirar essa linha para testar visualizão */
+
     list-style: none; /*Estilo de lista desabilitado*/
+
     /* padding: 0; Preenchimento zerado, podendo também ser retirado para testes */
+
 }
 
 .nav-links-mobile li { /*listas da versão Mobile*/
+
     border-bottom: 1px solid #787272; /*Bordar inferior de cada lista*/
+
     padding-bottom: 1.2rem; /*Tamanho da borda*/
+
 }
 
+.nav-links { /*Aqui estamos estilizando a UL (lista não ordenada)*/
+
+    list-style: none; /*Retirando o estilo de lista*/
+
+    display: flex; /*Tornando a caixa flexível, e lado a lado*/
+
+    margin: 0; /*Zerando os espaços de margem que são habilitados por padrão*/
+
+    padding: 0; /*Zerando os preenchimentos que são habilitados por padrão*/
+
+}
+
+.nav-links li { /*Estilizando nossa LI que está dentro da UL*/
+
+    padding: 0 8px; /*Preenchimento da LI superior/inferior 0 e laterais em 9px*/
+}
+
+.nav-links a,
+.nav-links-mobile a { /*Estamos chamando as duas âncoras para estilização, tanto da Versão Desktop quanto da versão Mobile.*/
+
+    color: white; /*A cor da letra*/
+
+    text-decoration: none; /*E sem sublinhado*/
+}
 
 
 
@@ -106,6 +194,16 @@ header ul {
     display: none;
 }
 
+.close i {
+    font-size: 1.5em;
+    color: white;
+}
+
+
+.hamburger i {
+    font-size: 1.5em;
+    color: white;
+}
 
 .close {
     margin-top: 20px;
@@ -119,50 +217,94 @@ header ul {
     display: flex;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .nossa-equipe {
     /*chamando a (1ª section do site) para estelizar*/
-    padding: 200px;
+
+    padding: min(11.2vh, 5rem);
     /*preenchimento da sessão*/
+
+
+
     background-image: url(imagem/american-bulldogs-1504599.jpg);
     /*colocando imagem de fundo*/
+
+    overflow: hidden;
+
     display: flex;
     /*tornar flex e deixar lado a lado*/
+
     align-items: center;
     /*alinhamento na vertical*/
+
     background-size: cover;
     /*tamanho da imagem*/
     /*cover (total)*/
+
     background-repeat: no-repeat;
+    /*para fazer a img não se repetir*/
+
     background-position: center;
     /*posicionando no centro a imagem*/
 }
 
 .nossa-equipe div {
     /*Chamando a (div) que esta dentro da (1ª section) para estelizar*/
+
     color: white;
     /*cor de todas os paragrafos e sub titulos dentro da caixa*/
+
     background-color: #18333d8c;
     /*cor de fundo*/
+
     width: 800px;
     /*largura*/
+
     height: 350px;
     /*altura*/
+
     margin-left: 50px;
     /*espaçamento lateral*/
+
     font-size: 20px;
     /*tamanho da fonte*/
 }
 
+
+
+
+
+
 .section-2 {
-    padding: 200px;
+
+    padding: min(10vh, 5rem);
     /*preenchimento da sessão*/
+
+    width: 100%;
+
     background-image: url(imagem/veterinario3.webp);
     /*colocando imagem de fundo*/
+
+
     background-repeat: no-repeat;
     /*fazendo ele não se repetir*/
+
     background-size: cover;
     /*tamanho da imagem*/
     /*cover (total)*/
+    
 }
 
 .section-2 h2 {
@@ -194,6 +336,7 @@ header ul {
     /*espaçamento*/
     margin-bottom: 25px;
     /*espaçamento inferior*/
+    
 }
 
 .section-2 .div-pai1 .div-1 {
@@ -271,7 +414,7 @@ header ul {
 
 .section-2 .div-pai1 .div-1:hover {
     /*colocando o (hover) para quando o mause passar em cima fazer o que eu quero*/
-    transform: scale(1.1, 1.1);
+    transform: scale(1.1, .1);
     /*(aproximar) ou (aumentar) deixa mais perto */
     transition: 0.8s;
     /*tempo para a trazação*/
@@ -609,6 +752,7 @@ footer li a {
     html {
         font-size: 12px;
     }
+    
 
     /* header img {
         width: 10rem;
@@ -654,5 +798,14 @@ footer li a {
 
     }
     
+
+
+    @media(max-width: 450px){
+        header{
+            padding: min(2vh, 1rem);
+        }
+    }
+
+
 }
 
